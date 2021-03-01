@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     // backgroundColor: '#e1e4e8',
   },
 });
+
 class ProgressiveImage extends React.Component {
   render() {
     return (
