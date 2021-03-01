@@ -1,6 +1,6 @@
 import React from 'react';
 import {ImageBackground} from 'react-native';
-import {View, StyleSheet, Image} from 'react-native';
+import {StyleSheet, Image} from 'react-native';
 import {horizontalScale, verticalScale} from '../../utils/consts/Scale';
 import {images} from '../../utils/theme/Images';
 const styles = StyleSheet.create({
