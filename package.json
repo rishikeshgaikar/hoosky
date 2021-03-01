@@ -1,0 +1,63 @@
+{
+  "name": "husky_test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "plint": "prettier --check ."
+  },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\"",
+      "pre-merge-commit": "echo \"[Husky] pre-merge-commit\"",
+      "prepare-commit-msg": "echo \"[Husky] prepare-commit-msg\"",
+      "commit-msg": "echo \"[Husky] commit-msg\"",
+      "post-commit": "echo \"[Husky] post-commit\"",
+      "pre-rebase": "echo \"[Husky] pre-rebase\"",
+      "post-checkout": "echo \"[Husky] post-checkout\"",
+      "post-merge": "echo \"[Husky] post-merge\"",
+      "pre-push": "echo \"[Husky] pre-push\"",
+      "pre-receive": "echo \"[Husky] pre-receive\"",
+      "update": "echo \"[Husky] update\"",
+      "post-receive": "echo \"[Husky] post-receive\"",
+      "post-update": "echo \"[Husky] post-update\"",
+      "reference-transaction": "echo \"[Husky] reference-transaction\"",
+      "push-to-checkout": "echo \"[Husky] push-to-checkout\"",
+      "pre-auto-gc": "echo \"[Husky] pre-auto-gc\"",
+      "post-rewrite": "echo \"[Husky] post-rewrite\"",
+      "sendemail-validate": "echo \"[Husky] sendemail-validate\"",
+      "fsmonitor-watchman": "echo \"[Husky] fsmonitor-watchman\"",
+      "p4-changelist": "echo \"[Husky] p4-changelist\"",
+      "p4-prepare-changelist": "echo \"[Husky] p4-prepare-changelist\"",
+      "p4-post-changelist": "echo \"[Husky] p4-post-changelist\"",
+      "p4-pre-submit": "echo \"[Husky] p4-pre-submit\"",
+      "post-index-change": "echo \"[Husky] post-index-change\""
+    }
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "husky": "^4.3.8",
+    "prettier": "2.2.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
