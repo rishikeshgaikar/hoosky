@@ -1,0 +1,25 @@
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Build and upload build to firebase"
+  lane :fire do
+    # Bundling application
+    sh "cd .. && npx react-native bundle --dev false --platform android --entry-file index.js --bundle-output  $PWD/app/src/main/assets/index.android.bundle --assets-dest $PWD/app/src/main/res"
+    # Bump version code for uploading
+    increment_version_code
+    # Building apk
+    gradle(task: "assembleDebug")
+    # Upload build
+    firebase_app_distribution(
+      app: "1:100828398190:android:f72239b5fc31c0f7b51c7f",
+      testers: "rishikesh.gaikar@wovvtech.com",
+      release_notes: "No release notes attached by developer",
+    )
+    notification(subtitle: "Sucessfull", message: "Build shared with testers")
+  end  
+end
+
+

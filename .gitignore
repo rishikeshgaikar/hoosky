@@ -29,6 +29,15 @@ build/
 local.properties
 *.iml
 
+# Android/bundle
+android/app/src/main/assets
+android/app/src/main/res/drawable-hdpi
+android/app/src/main/res/drawable-mdpi
+android/app/src/main/res/drawable-xhdpi
+android/app/src/main/res/drawable-xxhdpi
+android/app/src/main/res/drawable-xxxhdpi
+android/app/src/main/res/raw
+
 # node.js
 #
 node_modules/
@@ -57,3 +66,21 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+/ios/build_ipa/
+
+/iREADME.md
+
+# fastlane specific
+**/fastlane/report.xml
+
+# deliver temporary files
+**/fastlane/Preview.html
+
+# readme files
+**/fastlane/README.md
+
+# snapshot generated screenshots
+**/fastlane/screenshots
+
+# scan temporary files
+**/fastlane/test_output

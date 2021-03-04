@@ -18,8 +18,6 @@
 		2DCD954D1E0B4F2C00145EB5 /* husky_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* husky_testTests.m */; };
 		39E6B23417D299A05EEA2C35 /* libPods-husky_test-husky_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12388741A1E84B29F066425 /* libPods-husky_test-husky_testTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8C45A5812E893FBD2A4721AF /* libPods-husky_test-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 360CA36D32F3C62602901E73 /* libPods-husky_test-tvOS.a */; };
-		D12ECD26307B2094D75CE02B /* libPods-husky_test-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3348DBE331C184AA6424B4F /* libPods-husky_test-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +42,6 @@
 		00E356EE1AD99517003FC87E /* husky_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = husky_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* husky_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = husky_testTests.m; sourceTree = "<group>"; };
-		01CA788E9FF550D62A1E1DCC /* Pods-husky_test-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-husky_test-tvOSTests/Pods-husky_test-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		12042860EBF27562A7289108 /* Pods-husky_test-husky_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test-husky_testTests.debug.xcconfig"; path = "Target Support Files/Pods-husky_test-husky_testTests/Pods-husky_test-husky_testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* husky_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = husky_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = husky_test/AppDelegate.h; sourceTree = "<group>"; };
@@ -54,19 +51,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = husky_test/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* husky_test-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "husky_test-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* husky_test-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "husky_test-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		360CA36D32F3C62602901E73 /* libPods-husky_test-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-husky_test-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE77A105AE0FFF01F03F896 /* Pods-husky_test-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test-tvOS.release.xcconfig"; path = "Target Support Files/Pods-husky_test-tvOS/Pods-husky_test-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		5C28C7F16FCA854D09C53DDB /* libPods-husky_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-husky_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		739359650F677EC275AD7BE3 /* Pods-husky_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test.debug.xcconfig"; path = "Target Support Files/Pods-husky_test/Pods-husky_test.debug.xcconfig"; sourceTree = "<group>"; };
 		80262B45AE11A25A39B555A9 /* Pods-husky_test-husky_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test-husky_testTests.release.xcconfig"; path = "Target Support Files/Pods-husky_test-husky_testTests/Pods-husky_test-husky_testTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = husky_test/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12388741A1E84B29F066425 /* libPods-husky_test-husky_testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-husky_test-husky_testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBF4F2AEEDA6DEAF063588E2 /* Pods-husky_test-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-husky_test-tvOSTests/Pods-husky_test-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDE013A8BA10BD251771A2F7 /* Pods-husky_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test.release.xcconfig"; path = "Target Support Files/Pods-husky_test/Pods-husky_test.release.xcconfig"; sourceTree = "<group>"; };
-		E3348DBE331C184AA6424B4F /* libPods-husky_test-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-husky_test-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F5B9427E2904616CC3618428 /* Pods-husky_test-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-husky_test-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-husky_test-tvOS/Pods-husky_test-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C45A5812E893FBD2A4721AF /* libPods-husky_test-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12ECD26307B2094D75CE02B /* libPods-husky_test-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +133,6 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				5C28C7F16FCA854D09C53DDB /* libPods-husky_test.a */,
 				C12388741A1E84B29F066425 /* libPods-husky_test-husky_testTests.a */,
-				360CA36D32F3C62602901E73 /* libPods-husky_test-tvOS.a */,
-				E3348DBE331C184AA6424B4F /* libPods-husky_test-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,12 +144,7 @@
 				CDE013A8BA10BD251771A2F7 /* Pods-husky_test.release.xcconfig */,
 				12042860EBF27562A7289108 /* Pods-husky_test-husky_testTests.debug.xcconfig */,
 				80262B45AE11A25A39B555A9 /* Pods-husky_test-husky_testTests.release.xcconfig */,
-				F5B9427E2904616CC3618428 /* Pods-husky_test-tvOS.debug.xcconfig */,
-				4DE77A105AE0FFF01F03F896 /* Pods-husky_test-tvOS.release.xcconfig */,
-				CBF4F2AEEDA6DEAF063588E2 /* Pods-husky_test-tvOSTests.debug.xcconfig */,
-				01CA788E9FF550D62A1E1DCC /* Pods-husky_test-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -246,7 +229,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "husky_test-tvOS" */;
 			buildPhases = (
-				87D3DDD53791D0CD050447BE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +248,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "husky_test-tvOSTests" */;
 			buildPhases = (
-				4ED62DA0B9795043D102D5F7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -294,7 +275,9 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 7798LFD65M;
 						LastSwiftMigration = 1120;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -425,50 +408,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-husky_test-husky_testTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4ED62DA0B9795043D102D5F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-husky_test-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87D3DDD53791D0CD050447BE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-husky_test-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -655,7 +594,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7798LFD65M;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = husky_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -664,8 +606,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husky-test";
 				PRODUCT_NAME = husky_test;
+				PROVISIONING_PROFILE_SPECIFIER = Fastlane_test_profile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -678,7 +621,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 7798LFD65M;
 				INFOPLIST_FILE = husky_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -686,8 +632,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.husky-test";
 				PRODUCT_NAME = husky_test;
+				PROVISIONING_PROFILE_SPECIFIER = Fastlane_test_profile;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +642,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5B9427E2904616CC3618428 /* Pods-husky_test-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +669,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DE77A105AE0FFF01F03F896 /* Pods-husky_test-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +696,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBF4F2AEEDA6DEAF063588E2 /* Pods-husky_test-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +722,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01CA788E9FF550D62A1E1DCC /* Pods-husky_test-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
