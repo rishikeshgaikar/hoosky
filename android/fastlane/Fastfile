@@ -12,12 +12,38 @@ platform :android do
     increment_version_code
     # Building apk
     gradle(task: "assembleDebug")
-    # Upload build
+    # Read changelog
+    changelog = read_changelog(
+      changelog_path: '/Users/rishikesh/Desktop/husky_test/CHANGELOG.md',	# Specify path to CHANGELOG.md
+      section_identifier: '[Unreleased]',	# Specify what section to read
+    )
+    # Emojified build    
+    emojified_changelog = emojify_changelog 
+    # Upload build 
     firebase_app_distribution(
       app: "1:100828398190:android:f72239b5fc31c0f7b51c7f",
-      testers: "rishikesh.gaikar@wovvtech.com",
-      release_notes: "No release notes attached by developer",
+      testers: "rishikesh.gaikar@wovvtech.com,",
+      release_notes: emojified_changelog,
     )
+    # Get version code
+    version_code= get_version_code(
+      gradle_file_path:"/Users/rishikesh/Desktop/husky_test/android/app/build.gradle",
+    )
+    # Get version name
+    version_name = get_version_name(
+        gradle_file_path:"/Users/rishikesh/Desktop/husky_test/android/app/build.gradle",
+    )
+    # Update changelog   
+    update_changelog(
+      changelog_path: '/Users/rishikesh/Desktop/husky_test/CHANGELOG.md',	# Specify path to CHANGELOG.md
+      section_identifier: '[Unreleased]', # Specify what section to update
+      updated_section_identifier: version_name+" ("+version_code+")" # Specify new section identifier
+      )
+    # # git addversion bump
+    # git_add(path: "/Users/rishikesh/Desktop/husky_test/CHANGELOG.md")
+    # # git commit version bump 
+    # git_commit(path: "/Users/rishikesh/Desktop/husky_test/CHANGELOG.md", message: "Version Bump")
+    # Send notification
     notification(subtitle: "Sucessfull", message: "Build shared with testers")
   end  
 end

@@ -6,19 +6,19 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
   lane :fireios do
-    # increment_build_number(xcodeproj: "husky_test.xcodeproj")
-    # build_app(
-    #   workspace: "husky_test.xcworkspace", 
-    #   scheme: "husky_test", 
-    #   export_method: "ad-hoc", 
-    #   silent: "true", 
-    #   output_directory: "./build_ipa"
-    # )
+    increment_build_number(xcodeproj: "husky_test.xcodeproj")
+    build_app(
+      workspace: "husky_test.xcworkspace", 
+      scheme: "husky_test", 
+      export_method: "ad-hoc", 
+      silent: "true", 
+      output_directory: "./build_ipa"
+    )
     firebase_app_distribution(
-      app: "1:100828398190:ios:e788c13868ba766bb51c7f",
+      app: "1:100828398190:ios:7523449720639e34b51c7f",
       testers: "rishikesh.gaikar@wovvtech.com",
       release_notes: "No release notes attached by developer",
-      ipa_path: "/build_ipa/husky_test.ipa",
+      ipa_path: "./build_ipa/husky_test.ipa",
     )
     notification(subtitle: "Sucessfull", message: "Build shared with testers")
   end

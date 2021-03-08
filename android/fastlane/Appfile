@@ -1,3 +1,2 @@
 json_key_file("") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
 package_name("com.husky_test") # e.g. com.krausefx.app
-firebase_app_distribution_app_id "1:100828398190:android:f72239b5fc31c0f7b51c7f" 
