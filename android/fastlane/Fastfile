@@ -6,6 +6,8 @@ default_platform(:android)
 platform :android do
   desc "Build and upload build to firebase"
   lane :fire do
+    # Ensure clean repo
+    # ensure_git_status_clean
     # Bundling application
     sh "cd .. && npx react-native bundle --dev false --platform android --entry-file index.js --bundle-output  $PWD/app/src/main/assets/index.android.bundle --assets-dest $PWD/app/src/main/res"
     # Bump version code for uploading
@@ -39,10 +41,10 @@ platform :android do
       section_identifier: '[Unreleased]', # Specify what section to update
       updated_section_identifier: version_name+" ("+version_code+")" # Specify new section identifier
       )
-    # # git addversion bump
-    # git_add(path: "/Users/rishikesh/Desktop/husky_test/CHANGELOG.md")
-    # # git commit version bump 
-    # git_commit(path: "/Users/rishikesh/Desktop/husky_test/CHANGELOG.md", message: "Version Bump")
+    # git addversion bump
+    git_add(path: ["/Users/rishikesh/Desktop/husky_test/CHANGELOG.md","/Users/rishikesh/Desktop/husky_test/android/app/build.gradle"])
+    # git commit version bump 
+    git_commit(path: ["/Users/rishikesh/Desktop/husky_test/CHANGELOG.md","/Users/rishikesh/Desktop/husky_test/android/app/build.gradle"], message: "Version Bump "+version_name+" ("+version_code+")")
     # Send notification
     notification(subtitle: "Sucessfull", message: "Build shared with testers")
   end  
